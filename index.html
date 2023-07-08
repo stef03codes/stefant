@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description">
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="portfolio" content="Stefan's Portfolio Website" />
+		<!-- Font Awesome CDN -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+        <link rel="stylesheet" href="css/style.css">
+		<title>Stefan Taskovski</title>
+	</head>
+	<body>
+        <!-- HEADER -->
+		<header>
+            <div class="container">
+                <nav>
+                    <div class="logo">
+                        <a href="index.html"><span>Stefan Taskovski</span></a>
+                        <span class="flags">
+                            <a href="pages/index-mk.html"><img src="img/mk-flag.png" alt=""></a>
+                            <a href="index.html"><img src="img/uk-flag.png" alt=""></a>
+                        </span>
+                    </div>
+                    <ul class="navbar">
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="menu-btn">
+                        <i class="fa-solid fa-burger"></i>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- HERO -->
+        <section class="hero-section" id="hero">
+            <div class="container">
+                <h1 class="hero-title">Bring Your Digital Dreams to Reality</h1>
+                <p class="hero-text">
+                    Hi! My name is Stefan, and my mission is to create modern 
+                    and fast websites that help people in growing their businesses.
+                </p>
+                <a href="#contact" class="btn">Schedule a free call</a>
+            </div>
+        </section>
+        <!-- ABOUT -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="row row-50">
+                    <div class="about-col-right">
+                        <h2 class="section-title">My Story</h2>
+                        <p class="section-text">
+                            Hello there! My name is Stefan, a passionate 20-year-old studying Computer Science at the esteemed "Faculty of Computer Science and Engineering" in Skopje, Republic of Macedonia.
+                            Ever since I laid my hands on my first computer, I've been mesmerized by the endless possibilities that the digital realm offers. What started as a curious exploration soon turned into a burning passion for web design.
+                        </p><br>
+                        <p class="section-text">
+                            My journey as a web designer has been a thrilling exploration of merging art and technology. With each project I undertake, I strive to strike a harmonious balance between captivating visuals and seamless functionality. I believe that the true magic of web design lies in evoking emotions and leaving lasting impressions on visitors.
+                        </p>
+                    </div>
+                    <div class="about-col-left">
+                        <div class="main-img-wrapper"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SERVICES -->
+        <section class="services-section" id="services">
+            <div class="container">
+                <h2 class="section-title" style="text-align: center;">What I do</h2>
+                <p class="section-text text-modified" style="text-align: center;">
+                    I hope that my offer will be a perfect match for your requirements.
+                </p>
+    
+                <div class="grid">
+                    <div class="grid-item">
+                        <span class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </span>
+                        <h4 class="service-title">Fast & Responsive Websites</h4>
+                        <p class="service-text">
+                            Your online presence matters, and I understand the importance of delivering a seamless user experience.
+                        </p>
+                    </div>
+                    <div class="grid-item">
+                        <span class="service-icon">
+                            <i class="fas fa-pencil-ruler"></i>
+                        </span>
+                        <h4 class="service-title">Unique Web Design</h4>
+                        <p class="service-text">
+                            Stand out from the crowd with a tailor-made web design that reflects your brand's essence and captivates your audience.
+                        </p>
+                    </div>
+                    <div class="grid-item">
+                        <span class="service-icon">
+                            <i class="fas fa-cogs"></i>
+                        </span>
+                        <h4 class="service-title">SEO Optimization</h4>
+                        <p class="service-text">
+                            By optimizing keywords, meta tags, and site structure, I help your website reach its full potential in the digital landscape.
+                        </p>
+                    </div>
+                    <div class="grid-item">
+                        <span class="service-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </span>
+                        <h4 class="service-title">Website Maintenance & Support</h4>
+                        <p class="service-text">
+                            I offer ongoing support and maintenance services to ensure your website continues to perform optimally.					</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- WORK -->
+        <section class="portfolio-section" id="portfolio">
+            <div class="container">
+                <h2 class="section-title">My Work</h2>
+                <p class="section-text">
+                    If you want to collaborate with me 
+                    <a class="chat" href="#">let's chat.</a>
+                </p>
+                <div class="row row-60-40" style="margin-top: 20px;">
+                    <div class="project-col" id="work1">
+                        <img class="thumbnail" src="img/bonusads.png" alt="">
+                        <div class="project-content">
+                            <h4 class="project-title">Bonusads - SMMA</h4>
+                            <p class="project-text">Take a look at this succefull story about social media marketing agency.</p>
+                            <a href="/posts/bonusads.html" class="btn-sm">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-col" id="work2">
+                        <img class="thumbnail" src="img/schedule.png" alt="">
+                        <div class="project-content">
+                            <h4 class="project-title">Event Schedule</h4>
+                            <p class="project-text">Simple and nice website template for scheduling an events.</p>
+                            <a href="posts/schedule.html" class="btn-sm">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-col" id="work3">
+                        <img class="thumbnail" src="img/sales.png" alt="">
+                        <div class="project-content">
+                            <h4 class="project-title">Salesblog - Template</h4>
+                            <p class="project-text">Nice and exciting women blog avout health care products.</p>
+                            <a href="posts/sales-blog.html" class="btn-sm">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CONTACT -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="row row-50 align-start">
+                    <div class="contact-col">
+                        <div class="contact-text">
+                            <h2 class="section-title">Schedule a free call</h2>
+                            <p class="section-text">
+                                Thank you for exploring my portfolio! If you have any inquiries, collaboration proposals, or just want to say hello, I'd love to hear from you.
+                                <br><br>
+                                Don't hesitate to drop me a message about your project ideas or any questions you may have. I'm excited to discuss how we can bring your web design aspirations to life!						</p>
+                        </div>
+                        <div class="contact-info row row-50">
+                            <div class="contact-item section-text">
+                                <i class="fa-solid fa-phone"></i>
+                                <a href="tel:+38976629508">+389 76/629-508</a>
+                            </div>
+                            <div class="contact-item section-text">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>Skopje - Macedonia</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-col">
+                        <!-- Calendly inline widget begin -->
+                        <div class="calendly-inline-widget" data-url="https://calendly.com/taskovskystefan/30min?background_color=e6f1ff&text_color=322a59&primary_color=f1bf01" style="min-width:320px;height:550px"></div>
+                        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                        <!-- Calendly inline widget end -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ASIDE -->
+        <div class="social-media">
+            <div class="vline"></div>
+            <div class="social-links">
+                <a class="social-item">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a class="social-item">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a class="social-item">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+            <div class="vline"></div>
+        </div>
+        <div class="mail">
+            <div class="vline"></div>
+            <p>taskovskystefan@gmail.com</p>
+            <div class="vline"></div>
+        </div>
+        <!-- FOOTER -->
+        <footer>
+            <div class="container">
+                <div class="footer-social-media">
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <div class="footer-mail">
+                    <p><i class="fa-solid fa-envelope"></i> taskovskystefan@gmail.com</p>
+                </div>
+                <p>Designed and Developed by Stefan Taskovski</p>
+            </div>
+        </footer>
+	</body>
+    <script src="js/main.js"></script>
+</html>

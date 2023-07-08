@@ -1,0 +1,53 @@
+* {
+    line-height: 150%;
+}
+body {
+    background-color: aliceblue;
+}
+header {
+    background-color: #322a59 !important;
+}
+p {
+    text-align: justify;
+}
+#work1 {
+    background: rgba(0,0,0,0.7) url("../img/bonusads.png") no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+#work2 {
+    background: rgba(0,0,0,0.8) url("../img/sales.png") no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+#work3 {
+    background: rgba(0,0,0,0.8) url("../img/schedule.png") no-repeat; 
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+.hero-title {
+    color: #ffffff !important;
+}
+.content {
+    font-size: 20px;
+}
+.date {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.author {
+    margin-top: 50px;
+}
+.hero-title {
+    font-size: 64px;
+    line-height: 150%;
+    /* padding: 100px 0 40px 0; */
+    color: #e6f1ff;
+}
+
+.web-link {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
